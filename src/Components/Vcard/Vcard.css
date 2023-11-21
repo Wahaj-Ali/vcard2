@@ -5,6 +5,8 @@
     display: flex;
     justify-content: center;
     height: 60vh;
+    position: absolute;
+    width: 100vw;
 }
 
 .logo {
@@ -13,10 +15,10 @@
 
 .card {
     display: flex;
-    position: absolute;
+    position: relative;
     padding: 0 60px;
     width: -webkit-fill-available;
-    top: 15%;
+    top: 110px;
 }
 
 .image {
@@ -82,8 +84,8 @@
 .about {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: 130%;
+    position: relative;
+    top: 121px;
     padding: 0 60px;
 }
 
@@ -110,8 +112,8 @@
 .contact {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: 167%;
+    position: relative;
+    top: 121px;
     padding: 0 60px;
     width: -webkit-fill-available;
 }
@@ -162,4 +164,56 @@
 #email {
     background-color: rgba(126, 190, 217, 1);
     color: rgba(2, 41, 113, 1);
+}
+
+@media (max-width: 768px) {
+    .cardContent h1 {
+        font-size: 36px;
+    }
+
+    .cardContent h2, .cardContent h3, .cardContent h4 {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 435px) {
+    .nav {
+        height: 20vh;
+    }
+
+    .card {
+        padding: 0 12px;
+    }
+
+    .cardContent {
+        padding: 0 10px;
+    }
+
+    .cardContent h1 {
+        font-size: 24px;
+    }
+
+    .cardContent h2, .cardContent h3, .cardContent h4 {
+        font-size: 18px;
+    }
+
+    .about {
+        padding: 0 20px;
+    }
+
+    .about h2, .contact h2 {
+        font-size: 18px;
+    }
+
+    .about p {
+        font-size: 12px;
+    }
+
+    .contact {
+        padding: 0 20px;
+    }
+
+    .contact ul li {
+        font-size: 14px;
+    }
 }
