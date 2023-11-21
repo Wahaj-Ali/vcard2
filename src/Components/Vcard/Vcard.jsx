@@ -38,9 +38,9 @@ const Vcard = () => {
             <div className="contact">
                 <h2>Contact Info.</h2>
                 <ul>
-                    <li><h3>< IoIosPhonePortrait/>Call Mobile</h3><a>(516) 587 0000</a></li>
-                    <li id='email'><h3><IoMdMail />Email</h3><a href="">fullyinspected@gmail.com</a></li>
-                    <li><h3><CgWebsite />Website</h3><a href="">www.fullyinspected.com</a></li>
+                    <li><h3>< IoIosPhonePortrait/>Call Mobile</h3><a href="tel:+15165870000">(516) 587 0000</a></li>
+                    <li id='email'><h3><IoMdMail />Email</h3><a href="mailto:fullyinspected@gmail.com">fullyinspected@gmail.com</a></li>
+                    <li><h3><CgWebsite />Website</h3><a href="http://www.fullyinspected.com" target="_blank">www.fullyinspected.com</a></li>
                 </ul>
             </div>
 
