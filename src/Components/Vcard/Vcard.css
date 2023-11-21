@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+.nav {
+    background-color: rgb(126 190 217 / 71%);
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    position: absolute;
+    width: -webkit-fill-available;
+}
+
+.logo {
+    margin-top: 9px;
+    height: 150px;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.card {
+    display: flex;
+    position: relative;
+    padding: 0 60px;
+    width: -webkit-fill-available;
+    top: 150px;
+}
+
+.image {
+    width: 40%;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+.cardContent {
+    background: linear-gradient(138.75deg, #7EBED9 0%, #ACDDEB 100%);
+    width: 60%;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 70px;
+}
+
+.cardContent h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(2, 41, 113, 1);
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.cardContent h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(2, 41, 113, 1);
+    margin-bottom: 0;
+}
+
+.cardContent h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.cardContent h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(2, 41, 113, 1);
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 121px;
+    padding: 0 60px;
+}
+
+.about h2 {
+    color: rgb(26, 32, 44, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(104, 104, 104, 1);
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 121px;
+    padding: 0 60px;
+    width: -webkit-fill-available;
+}
+
+.contact h2 {
+    color: rgb(26, 32, 44, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.contact ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.contact ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.contact ul li h3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-transform: uppercase;
+}
+
+.contact ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#email {
+    background-color: rgba(126, 190, 217, 1);
+    color: rgba(2, 41, 113, 1);
+}
+
+@media (max-width: 768px) {
+    .cardContent h1 {
+        font-size: 36px;
+    }
+
+    .cardContent h2, .cardContent h3, .cardContent h4 {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 435px) {
+    .nav {
+        height: 20vh;
+    }
+
+    .logo {
+        height: 110px;
+    }
+
+    .card {
+        top: 110px;
+        padding: 0 12px;
+    }
+
+    .cardContent {
+        padding: 0 10px;
+    }
+
+    .cardContent h1 {
+        font-size: 24px;
+    }
+
+    .cardContent h2, .cardContent h3, .cardContent h4 {
+        font-size: 18px;
+    }
+
+    .about {
+        padding: 0 20px;
+    }
+
+    .about h2, .contact h2 {
+        font-size: 18px;
+    }
+
+    .about p {
+        font-size: 12px;
+    }
+
+    .contact {
+        padding: 0 20px;
+    }
+
+    .contact ul li {
+        font-size: 14px;
+    }
+}
